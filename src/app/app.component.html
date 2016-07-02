@@ -1,0 +1,97 @@
+
+
+<md-sidenav-layout>
+
+  <md-sidenav mode="over" #menu>
+    
+    <md-list>
+      <md-list-item class="button-div" (click)="showSessions('web');
+        menu.close()">
+        <md-icon>cloud</md-icon>Web
+      </md-list-item>
+      <md-list-item class="button-div" (click)="showSessions('firebase');
+        menu.close()">
+        <md-icon>important_devices</md-icon>Firebase
+      </md-list-item>
+      <md-list-item class="button-div" (click)="showSessions('mobile');
+        menu.close()">
+        <md-icon>android</md-icon>Mobile
+      </md-list-item>
+    </md-list>
+    
+  </md-sidenav>
+  <md-toolbar>
+    <div class="button-div" (click)="menu.toggle()">
+      <md-icon>menu</md-icon>
+    </div>
+    {{title}}
+  </md-toolbar>
+  <div class="content-holder">
+    
+    <md-card *ngFor="let item of online ? (sessions | async) : sessions">
+      
+      <md-card-title>{{item.title}}</md-card-title>   
+      <md-card-content>
+        <p>{{item.time}}</p>
+        <p>{{item.speaker}}</p>
+        <p>{{item.description}}</p>
+      </md-card-content>
+      <md-card-actions>
+        <button md-button>DETAILS</button>
+      </md-card-actions>
+      
+    </md-card>
+
+    <!--<md-card *ngFor="let item of items | async">-->
+    <!--
+    <md-tab-group>
+
+      <md-tab>
+        <template md-tab-label>Web</template>
+        <template md-tab-content> 
+          <md-card *ngFor="let item of webSessions">
+            <md-card-title>{{item.title}}</md-card-title>   
+            <md-card-content>
+              <p>{{item.text}}</p>
+            </md-card-content>
+            <md-card-actions>
+              <button md-button>DETAILS</button>
+            </md-card-actions>
+          </md-card>
+        </template>
+      </md-tab>
+
+      <md-tab>
+        <template md-tab-label>Firebase</template>
+        <template md-tab-content> 
+          <md-card *ngFor="let item of firebaseSessions">
+            <md-card-title>{{item.title}}</md-card-title>   
+            <md-card-content>
+              <p>{{item.text}}</p>
+            </md-card-content>
+            <md-card-actions>
+              <button md-button>DETAILS</button>
+            </md-card-actions>
+          </md-card>
+        </template>
+      </md-tab>
+
+      <md-tab>
+        <template md-tab-label>Android</template>
+        <template md-tab-content> 
+          <md-card *ngFor="let item of mobileSessions">
+            <md-card-title>{{item.title}}</md-card-title>   
+            <md-card-content>
+              <p>{{item.text}}</p>
+            </md-card-content>
+            <md-card-actions>
+              <button md-button>DETAILS</button>
+            </md-card-actions>
+          </md-card>
+        </template>
+      </md-tab>
+
+    </md-tab-group>
+    -->
+  </div> 
+</md-sidenav-layout>

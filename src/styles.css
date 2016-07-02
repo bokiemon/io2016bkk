@@ -1,0 +1,44 @@
+.content-holder {
+    padding: 20px;
+}
+
+.button-div {
+    margin-right: 10px;
+    padding-top:3px;
+    cursor: pointer;
+}
+
+md-sidenav {
+    padding: 10px;
+    width: 170px;
+}
+
+md-sidenav div {
+    margin-bottom: 3px;
+}
+
+md-list-item md-icon {
+    margin-right:10px;
+}
+
+md-toolbar {
+    background-color: #4e8dff !important;
+    color: white !important;
+}
+
+md-card {
+    margin-bottom: 20px;
+}
+
+md-card-actions {
+    margin-right: 1px !important;
+    margin-left: 1px !important;
+}
+
+md-card-title {
+    color: #0088ff !important;
+}
+
+body {
+    margin: 0px;
+}
