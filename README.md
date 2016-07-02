@@ -1,6 +1,4 @@
-# IO2016 Extended Bangkok Angular2/Material Design/Firebase Progressive Web Demo
-
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.6. The demo showcase the following
+# IO2016 Extended Bangkok Progressive Web Demo (Having some fun with Angular2 and PWA)
 
 - Angular2 with angular-cli
 - Angular Material 2 UI Components
