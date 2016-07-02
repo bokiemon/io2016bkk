@@ -10,8 +10,6 @@ The demo showcased the following:
 - Data synchronization with angularfire2
 - Push Notification with Firebase Realtime Database and Google Cloud Messaging (GCM)
 
-Recommended: Use 
-
 ## Setup Project
 
 Install all packages
