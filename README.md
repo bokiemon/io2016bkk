@@ -1,4 +1,4 @@
-# IO2016 Extended Bangkok Angular2/Material Design/Firebase Progressive Web Demo
+# IO2016 Extended Bangkok Progressive Web Demo (Having some fun with Angular2 and PWA)
 
 - Angular2 with angular-cli
 - Angular Material 2 UI Components
