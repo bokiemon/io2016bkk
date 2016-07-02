@@ -1,11 +1,14 @@
 var gulp = require('gulp');
+var concat = require('gulp-concat');
+var rename = require('gulp-rename');  
+var uglify = require('gulp-uglify');
 
 gulp.task('generate-service-worker', function(callback) {
   var path = require('path');
   var swPrecache = require('sw-precache');
   var rootDir = 'dist';
 
-  swPrecache.write(path.join(rootDir, 'sw.js'), {
+  swPrecache.write(path.join('src', 'sw_1.js'), {
     staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif}'],
     stripPrefix: rootDir,
     runtimeCaching: [{
@@ -20,3 +23,11 @@ gulp.task('generate-service-worker', function(callback) {
     }]
   }, callback);
 });
+
+gulp.task('generate-final-sw-file', ['generate-service-worker'], function(){
+  return gulp.src(['src/sw_1.js', 'src/sw_push.js'])
+    .pipe(concat('sw.js'))
+    .pipe(gulp.dest('dist'));
+});
+
+gulp.task('default', ['generate-final-sw-file']);

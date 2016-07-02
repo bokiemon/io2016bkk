@@ -83,7 +83,7 @@ function parse(e){for(var t,r=[],n=0,o=0,a="";null!=(t=PATH_REGEXP.exec(e));){va
 
 
 /* eslint-disable quotes, comma-spacing */
-var PrecacheConfig = [["/app/app.component.css","d41d8cd98f00b204e9800998ecf8427e"],["/app/app.component.html","c2be9aeeab09b57f6166916054e98605"],["/index.html","b5aa14146f35455488aa4308bd2454bb"],["/main.js","c772c663fd28f8c0da4b7ad5bc24ca1f"],["/styles.css","0c4b4b939deb4f27e519f32df1281ca3"],["/system-config.js","a4f2c357436990d16ca1ca744aa28e64"],["/vendor/@angular2-material/button/_button-base.css","600d5f086c10e608f6026792720d3ad9"],["/vendor/@angular2-material/button/_button-theme.css","d41d8cd98f00b204e9800998ecf8427e"],["/vendor/@angular2-material/button/button.css","87c1eb0ef0b2ee61eda554aad1a44ae7"],["/vendor/@angular2-material/button/button.html","7afea5b998ddd69c345d90d6722669d8"],["/vendor/@angular2-material/card/card-header.html","4ef2cb35e348ed7429618fe93abc3c04"],["/vendor/@angular2-material/card/card-title-group.html","a7568cccc8cf69cf070bd9f616e54343"],["/vendor/@angular2-material/card/card.css","4513217c8fa989f0167f81f6af624e51"],["/vendor/@angular2-material/card/card.html","8403f1a77ccd8692f166fa9bf7fc5824"],["/vendor/@angular2-material/core/live-announcer/live-announcer.css","1853c1185adfb847b79225f4a3ff918e"],["/vendor/@angular2-material/core/overlay/overlay.css","61189b7c0c16a1e095d2f8877bfe2dfa"],["/vendor/@angular2-material/core/style/_default-theme.css","d41d8cd98f00b204e9800998ecf8427e"],["/vendor/@angular2-material/core/style/_elevation.css","600d5f086c10e608f6026792720d3ad9"],["/vendor/@angular2-material/core/style/_list-shared.css","4c7c2557c27c39c945bdd7817d66f014"],["/vendor/@angular2-material/core/style/_mixins.css","2f85ae4aa3494c23b3bb35e03153b536"],["/vendor/@angular2-material/core/style/_palette.css","d41d8cd98f00b204e9800998ecf8427e"],["/vendor/@angular2-material/core/style/_theme-functions.css","d41d8cd98f00b204e9800998ecf8427e"],["/vendor/@angular2-material/core/style/_variables.css","d41d8cd98f00b204e9800998ecf8427e"],["/vendor/@angular2-material/core/style/core.css","1dae3c5cfbf500f7e29e629c7e4c770d"],["/vendor/@angular2-material/icon/icon.css","1ed17278d8445b598ce8fe960eb5ece8"],["/vendor/@angular2-material/list/list-item.html","932a09184d1715758a46f324f3485567"],["/vendor/@angular2-material/list/list.css","59c2a0290e429b72927713304c387ed2"],["/vendor/@angular2-material/sidenav/sidenav-transitions.css","fa24864514dc18f747c619876155fe2f"],["/vendor/@angular2-material/sidenav/sidenav.css","7e9d9dd26e9a10df2f31244920fbc6db"],["/vendor/@angular2-material/sidenav/sidenav.html","38c210a38facdacba42bdc82bef10b27"],["/vendor/@angular2-material/tabs/tab-group.css","752566d19854f904ab728bb038f6d82e"],["/vendor/@angular2-material/tabs/tab-group.html","1fafaff00920a69184f66dc840939010"],["/vendor/@angular2-material/toolbar/toolbar.css","d09e1adbde3d0e9ba5b1bef57d72c976"],["/vendor/@angular2-material/toolbar/toolbar.html","d3930a2cd000fd45a4bf507b7275828b"],["/vendor/es6-shim/es6-shim.js","099ecc773ed04f61819432427e6e4cf5"],["/vendor/reflect-metadata/Reflect.js","bd69ecf1d6948c182f15c79ef60cad4c"],["/vendor/systemjs/dist/system.src.js","545259aa30787d84d0be90d98b9dbb46"],["/vendor/zone.js/dist/zone.js","2222385d52aafe3cf4568d0173483fc6"]];
+var PrecacheConfig = [["/app/app.component.css","d41d8cd98f00b204e9800998ecf8427e"],["/app/app.component.html","c2be9aeeab09b57f6166916054e98605"],["/index.html","b5aa14146f35455488aa4308bd2454bb"],["/main.js","c772c663fd28f8c0da4b7ad5bc24ca1f"],["/styles.css","0c4b4b939deb4f27e519f32df1281ca3"],["/sw.js","8dfc38b3c9b102dd3e064e8b499e22c0"],["/system-config.js","a4f2c357436990d16ca1ca744aa28e64"],["/vendor/@angular2-material/button/_button-base.css","600d5f086c10e608f6026792720d3ad9"],["/vendor/@angular2-material/button/_button-theme.css","d41d8cd98f00b204e9800998ecf8427e"],["/vendor/@angular2-material/button/button.css","87c1eb0ef0b2ee61eda554aad1a44ae7"],["/vendor/@angular2-material/button/button.html","7afea5b998ddd69c345d90d6722669d8"],["/vendor/@angular2-material/card/card-header.html","4ef2cb35e348ed7429618fe93abc3c04"],["/vendor/@angular2-material/card/card-title-group.html","a7568cccc8cf69cf070bd9f616e54343"],["/vendor/@angular2-material/card/card.css","4513217c8fa989f0167f81f6af624e51"],["/vendor/@angular2-material/card/card.html","8403f1a77ccd8692f166fa9bf7fc5824"],["/vendor/@angular2-material/core/live-announcer/live-announcer.css","1853c1185adfb847b79225f4a3ff918e"],["/vendor/@angular2-material/core/overlay/overlay.css","61189b7c0c16a1e095d2f8877bfe2dfa"],["/vendor/@angular2-material/core/style/_default-theme.css","d41d8cd98f00b204e9800998ecf8427e"],["/vendor/@angular2-material/core/style/_elevation.css","600d5f086c10e608f6026792720d3ad9"],["/vendor/@angular2-material/core/style/_list-shared.css","4c7c2557c27c39c945bdd7817d66f014"],["/vendor/@angular2-material/core/style/_mixins.css","2f85ae4aa3494c23b3bb35e03153b536"],["/vendor/@angular2-material/core/style/_palette.css","d41d8cd98f00b204e9800998ecf8427e"],["/vendor/@angular2-material/core/style/_theme-functions.css","d41d8cd98f00b204e9800998ecf8427e"],["/vendor/@angular2-material/core/style/_variables.css","d41d8cd98f00b204e9800998ecf8427e"],["/vendor/@angular2-material/core/style/core.css","1dae3c5cfbf500f7e29e629c7e4c770d"],["/vendor/@angular2-material/icon/icon.css","1ed17278d8445b598ce8fe960eb5ece8"],["/vendor/@angular2-material/list/list-item.html","932a09184d1715758a46f324f3485567"],["/vendor/@angular2-material/list/list.css","59c2a0290e429b72927713304c387ed2"],["/vendor/@angular2-material/sidenav/sidenav-transitions.css","fa24864514dc18f747c619876155fe2f"],["/vendor/@angular2-material/sidenav/sidenav.css","7e9d9dd26e9a10df2f31244920fbc6db"],["/vendor/@angular2-material/sidenav/sidenav.html","38c210a38facdacba42bdc82bef10b27"],["/vendor/@angular2-material/tabs/tab-group.css","752566d19854f904ab728bb038f6d82e"],["/vendor/@angular2-material/tabs/tab-group.html","1fafaff00920a69184f66dc840939010"],["/vendor/@angular2-material/toolbar/toolbar.css","d09e1adbde3d0e9ba5b1bef57d72c976"],["/vendor/@angular2-material/toolbar/toolbar.html","d3930a2cd000fd45a4bf507b7275828b"],["/vendor/es6-shim/es6-shim.js","099ecc773ed04f61819432427e6e4cf5"],["/vendor/reflect-metadata/Reflect.js","bd69ecf1d6948c182f15c79ef60cad4c"],["/vendor/systemjs/dist/system.src.js","545259aa30787d84d0be90d98b9dbb46"],["/vendor/zone.js/dist/zone.js","2222385d52aafe3cf4568d0173483fc6"]];
 /* eslint-enable quotes, comma-spacing */
 var CacheNamePrefix = 'sw-precache-v1--' + (self.registration ? self.registration.scope : '') + '-';
 
@@ -305,32 +305,6 @@ self.addEventListener('fetch', function(event) {
       );
     }
   }
-});
-
-self.addEventListener('push', function(event){
-  //console.log("push message receive: ", event);
-  event.waitUntil(
-
-    fetch("https://angularfire-5f9c1.firebaseio.com/notifications/message/.json")
-    .then(
-      function(response){
-        if(response.status !== 200) {
-          console.log("Looks like there's a error retrieve notification")
-          throw new Error();
-        }
-
-        return response.json().then(function(data) {
-          console.log("data: ", data);
-
-          self.registration.showNotification(data.title, {
-            body: data.message,
-            tag: 'my-tag',
-            icon: 'myicon'
-          });
-        })
-      }
-    )
-  ) 
 });
 
 
