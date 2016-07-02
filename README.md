@@ -10,9 +10,18 @@ The demo showcased the following:
 - Data synchronization with angularfire2
 - Push Notification with Firebase Realtime Database and Google Cloud Messaging (GCM)
 
+More info:
+
+- [Angular 2](https://angular.io/)
+- [Angular CLI](https://github.com/angular/angular-cli)
+- [AngularFire2](https://github.com/angular/angularfire2)
+- [Angular Material 2](https://github.com/angular/material2)
+- [sw-precache](https://github.com/GoogleChrome/sw-precache)
+
 ## Setup Project
 
-Install all packages
+Git clone this repo and install all packages with
+
 ```
 npm install
 ```
