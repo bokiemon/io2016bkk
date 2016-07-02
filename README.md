@@ -1,6 +1,12 @@
-# Io2016
+# IO2016 Extended Bangkok Angular2/Material Design/Firebase Progressive Web Demo
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.6.
+- Angular2 with angular-cli
+- Angular Material 2 UI Components
+- Service Worker generation with sw-precache
+- Data synchronization with angularfire2
+- Push Notification with Firebase Realtime Database and Google Cloud Messaging (GCM)
+
+It is a demo application that lists all the sessions in IO2016 Extended Bangkok
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
