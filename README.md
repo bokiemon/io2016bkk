@@ -51,6 +51,8 @@ webpush.sendNotification(
 });
 ```
 
+Check out this simple web push [demo](https://gauntface.github.io/simple-push-demo/) for more code references.
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
