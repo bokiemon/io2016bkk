@@ -30,9 +30,26 @@ npm install
 
 Create a new Firebase project at firebase.google.com and import firebase_data.json into Realtime Database.
 
-## Setup Google Cloud Messaging
+## Setup Google Cloud Messaging for Push Notification
 
 Follow this [codelab](https://developers.google.com/web/fundamentals/getting-started/push-notifications/?hl=en) to setup Google Cloud Messaging. The Push Notification logic is in src/sw_push.js. This file will be used by gulp to generate the final service worker javascript (sw.js)
+
+The demo code doesn't deal with push notification with payload. Follow these [steps](https://developers.google.com/web/updates/2016/03/web-push-encryption?hl=en) to setup notification with payload. 
+
+***Tip***: use [web-push npm](https://www.npmjs.com/package/web-push) to send a push notification with encrypted payload to GCM.
+
+Run the following in a node console after installing web-push
+
+```javascript
+var webpush = require('web-push');
+
+webpush.sendNotification(
+"https://android.googleapis.com/gcm/send/ermhvv3Akzs:APA91bFDkMoiNnY4sxj5YI1EBLAErtXGH2xzsCtk0NJaVzeDPURqdEzLRx11rB5HYIvDDvD8xhcNNxIk_5KKcia97BVfZHDYRzAKmOGnz9Wmblck9wpDEMBTHonKgHak2ya50Y1YusId", 
+{
+  userAuth:"66_ZywHauOMhxec81O_ZIg==", userPublicKey:"BD31XIfq52iLuN15AjijRqwi7V61c9_UcFoyz_moMiwQqM7crR77X-uHWjBDpmNx24DcPFnuUnQvd3JcqfeUzsU=", 
+  payload:"hello world"
+});
+```
 
 ## Build
 
