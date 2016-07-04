@@ -21,6 +21,8 @@
     <script src="{{.}}"></script>
     {{/each}}
     <script>
+      var push_details = {a:"hello"};
+
       System.import('system-config.js').then(function () {
         System.import('main');
       }).catch(console.error.bind(console));
@@ -35,6 +37,7 @@
           reg.pushManager.subscribe({
             userVisibleOnly: true
           }).then(function(sub){
+            push_details = sub.toJSON();
             console.log("endpoint: " + JSON.stringify(sub.toJSON()));
           });
        });

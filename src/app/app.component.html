@@ -17,6 +17,10 @@
         menu.close()">
         <md-icon>android</md-icon>Mobile
       </md-list-item>
+      <md-list-item class="button-div" (click)="showPushDetails();
+        menu.close()">
+        <md-icon>info</md-icon>Push Details
+      </md-list-item>
     </md-list>
     
   </md-sidenav>
@@ -40,6 +44,15 @@
         <button md-button>DETAILS</button>
       </md-card-actions>
       
+    </md-card>
+
+    <md-card *ngIf="showDetails == true">
+      <md-card-title>Push Notification Details</md-card-title>
+      <md-card-content>
+        <p>Endpoint:{{this.push_details.endpoint}}</p>
+        <p>Auth:{{this.push_details.keys.auth}}</p>
+        <p>Public Key:{{this.push_details.keys.p256dh}}</p>
+      </md-card-content>
     </md-card>
 
     <!--<md-card *ngFor="let item of items | async">-->

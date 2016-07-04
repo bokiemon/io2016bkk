@@ -10,6 +10,8 @@ import { MD_LIST_DIRECTIVES } from '@angular2-material/list';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/from';
 
+declare var push_details:any;
+
 @Component({
   moduleId: module.id,
   selector: 'app-root',
@@ -35,6 +37,9 @@ export class AppComponent {
   firebaseSessions: FirebaseListObservable<any[]>;
   mobileSessions: FirebaseListObservable<any[]>;
   */
+
+  showDetails:boolean = false;
+  push_details:Object = null;
 
   webSessions: any;
   firebaseSessions: any;
@@ -105,6 +110,9 @@ export class AppComponent {
 
   showSessions(sessionType: String) {
 
+    if(this.showDetails)
+      this.showDetails = false;
+
     if(sessionType == "firebase")
       this.sessions = this.firebaseSessions;
     else if(sessionType == "mobile") {
@@ -113,6 +121,15 @@ export class AppComponent {
     else {
       this.sessions = this.webSessions;
     }
+  }
+
+  showPushDetails() {
+    
+    let msg = "- endpoint: " + push_details.endpoint 
+     + "\n- auth: " + push_details.keys.auth
+     + "\n- public key: " + push_details.keys.p256dh;
+
+    alert(msg);
   }
 
   title = 'IO Extended BKK 2016';
