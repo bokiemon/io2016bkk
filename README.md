@@ -2,6 +2,8 @@
 
 This is a demo application that lists all the sessions in IO2016 Extended Bangkok (25th June 2016).
 
+Production Version [here](https://angularfire-5f9c1.firebaseapp.com/index.html).
+
 The demo showcased the following: 
 
 - Developing a Progressive Web App using Angular2 with angular-cli
@@ -70,9 +72,12 @@ Run `gulp` in the top level directory. Gulp will do the following:
 * Generate dist/sw.js 
 
 ## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Recommended: Download and start [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en) to watch for file change at dist/ instead.
+Dev :-
+Download and start [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en) to watch for file change at dist/ instead.
+
+Production :- 
+Use firebase cli to deploy to Firebase Hosting. ([instructions](https://firebase.google.com/docs/hosting/quickstart#initialize-your-app))
 
 ## Code scaffolding
 
