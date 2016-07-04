@@ -38,15 +38,19 @@ The demo code doesn't deal with push notification with payload. Follow these [st
 
 ***Tip***: use [web-push npm](https://www.npmjs.com/package/web-push) to send a push notification with encrypted payload to GCM.
 
+Launch Chrome Dev Tools -> Console. You will see the print out for endpoint, auth and p256dh. Take note of these values.
+
 Run the following in a node console after installing web-push
 
 ```javascript
 var webpush = require('web-push');
 
+webpush.setGCMAPIKey('<replace with GCM API key>');
+
 webpush.sendNotification(
-"https://android.googleapis.com/gcm/send/ermhvv3Akzs:APA91bFDkMoiNnY4sxj5YI1EBLAErtXGH2xzsCtk0NJaVzeDPURqdEzLRx11rB5HYIvDDvD8xhcNNxIk_5KKcia97BVfZHDYRzAKmOGnz9Wmblck9wpDEMBTHonKgHak2ya50Y1YusId", 
+"<replace with endpoint>", 
 {
-  userAuth:"66_ZywHauOMhxec81O_ZIg==", userPublicKey:"BD31XIfq52iLuN15AjijRqwi7V61c9_UcFoyz_moMiwQqM7crR77X-uHWjBDpmNx24DcPFnuUnQvd3JcqfeUzsU=", 
+  userAuth:"<auth>", userPublicKey:"<p256dh>", 
   payload:"hello world"
 });
 ```
