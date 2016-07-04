@@ -1,0 +1,151 @@
+{
+  "firebaseSessions" : [ {
+    "description" : "Learn how to develop PWA with Angular2 and Firebase",
+    "speaker" : "Bok Thye Yeow",
+    "time" : "1:45pm - 2:30pm",
+    "title" : "Having some fun with Angular 2 and Firebase"
+  }, {
+    "description" : "Build a web chat app easily with Firebase",
+    "speaker" : "Warat Wongmaneekit",
+    "time" : "3:15pm - 4:00pm",
+    "title" : "Firebase. Build a web chat app"
+  }, {
+    "description" : "Introduction to Firebase",
+    "speaker" : "Sittiphol Phanvilai",
+    "time" : "3:15pm - 4:00pm",
+    "title" : "Introduction to Firebase"
+  }, {
+    "description" : "Learn how to build an app with Polymer that connects to Firebase",
+    "speaker" : "Supachai Laparparat & Tanitphon",
+    "time" : "4:00pm - 4:45pm",
+    "title" : "Build a PWA app with Polymer and Firebase"
+  }, {
+    "description" : "Learn all the cool stuff you can do with Firebase Cloud Messaging",
+    "speaker" : "Jirawat Karanwittayakan",
+    "time" : "4:00pm - 4:45pm",
+    "title" : "Firebase Cloud Messaging"
+  }, {
+    "description" : "Build you first android firebase application!",
+    "speaker" : "Somkiat Khitwongwattana",
+    "time" : "4:45pm - 5:30pm",
+    "title" : "Firebase Android Codelab"
+  } ],
+  "mobileSessions" : [ {
+    "description" : "Opening Address",
+    "speaker" : "Soonson",
+    "time" : "10:00am - 10:15am",
+    "title" : "Welcome Speech"
+  }, {
+    "description" : "All the cool stuff from IO2016",
+    "speaker" : "Bok Thye Yeow",
+    "time" : "10:15am - 11:00am",
+    "title" : "Keynote"
+  }, {
+    "description" : "Learn about various Google offerings in VR",
+    "speaker" : "Wittaya Assawasathain",
+    "time" : "5:30pm - 6:15pm",
+    "title" : "VR at Google"
+  }, {
+    "description" : "KBank Fintech",
+    "speaker" : "Teeranun Srihong",
+    "time" : "11:00am - 11:30am",
+    "title" : "KBTG Technology Focus"
+  }, {
+    "description" : "Learn about the new features in Android N",
+    "speaker" : "Sittiphol Phanvilai",
+    "time" : "11:30am - 12:15pm",
+    "title" : "What's New in Android N"
+  }, {
+    "description" : "Learn about Android Studio 2.2 and the new UI Designer",
+    "speaker" : "Jirawat Karanwittayakan, Somkiat Khitwongwattana",
+    "time" : "1:00pm - 1:45pm",
+    "title" : "Android Studio 2.2 & new UI Designer"
+  }, {
+    "description" : "Learn about how to promote your app using Play Store best practices",
+    "speaker" : "Aun Taraseina",
+    "time" : "1:45pm - 2:30pm",
+    "title" : "Play Store Best Practice"
+  }, {
+    "description" : "Advance unit testing methods with Expresso",
+    "speaker" : "Inaki villar",
+    "time" : "2:30pm - 3:15pm",
+    "title" : "Advanced Expresso"
+  }, {
+    "description" : "Introduction to Firebase",
+    "speaker" : "Sittiphol Phanvilai",
+    "time" : "3:15pm - 4:00pm",
+    "title" : "Firebase. Build a web chat app"
+  }, {
+    "description" : "Learn all the cool stuff you can do with Firebase Cloud Messaging",
+    "speaker" : "Jirawat Karanwittayakan",
+    "time" : "4:00pm - 4:45pm",
+    "title" : "Firebase Cloud Messaging"
+  }, {
+    "description" : "Build you first android firebase application!",
+    "speaker" : "Somkiat Khitwongwattana",
+    "time" : "4:45pm - 5:30pm",
+    "title" : "Firebase Android Codelab"
+  } ],
+  "notifications" : {
+    "message" : {
+      "message" : "Some event info have changed.",
+      "title" : "New Event Updates!"
+    }
+  },
+  "webSessions" : [ {
+    "description" : "Opening Address",
+    "speaker" : "Soonson",
+    "time" : "10:00am - 10:15am",
+    "title" : "Welcome Speech"
+  }, {
+    "description" : "All the cool stuff from IO2016",
+    "speaker" : "Bok Thye Yeow",
+    "time" : "10:15am - 11:00am",
+    "title" : "Keynote"
+  }, {
+    "description" : "Learn about GCP and Machine Learning",
+    "speaker" : "Paiboon Wongsasultthikul",
+    "time" : "5:30pm - 6:15pm",
+    "title" : "Introduction to GCP and Machine Learning"
+  }, {
+    "description" : "KBank Fintech",
+    "speaker" : "Teeranun Srihong",
+    "time" : "11:00am - 11:30am",
+    "title" : "KBTG Technology Focus"
+  }, {
+    "description" : "Overview of Progressive Web App",
+    "speaker" : "Warat Wongmaneekit",
+    "time" : "11:30am - 12:15pm",
+    "title" : "Deep Dive Into Progressive Web App"
+  }, {
+    "description" : "Learn how to develop PWA with Polymer",
+    "speaker" : "Supachai Laparparat & Tanitphon",
+    "time" : "1:00pm - 1:45pm",
+    "title" : "Polymer & Progressive Web App"
+  }, {
+    "description" : "Learn how to develop PWA with Angular2 and Firebase",
+    "speaker" : "Bok Thye Yeow",
+    "time" : "1:45pm - 2:30pm",
+    "title" : "Having some fun with Angular 2 and Firebase"
+  }, {
+    "description" : "Understanding Service Worker",
+    "speaker" : "Warat Wongmaneekit",
+    "time" : "2:30pm - 3:15pm",
+    "title" : "Service Worker Session"
+  }, {
+    "description" : "Build a web chat app easily with Firebase",
+    "speaker" : "Warat Wongmaneekit",
+    "time" : "3:15pm - 4:00pm",
+    "title" : "Firebase. Build a web chat app"
+  }, {
+    "description" : "Learn how to build an app with Polymer that connects to Firebase",
+    "speaker" : "Supachai Laparparat & Tanitphon",
+    "time" : "4:00pm - 4:45pm",
+    "title" : "Build a PWA app with Polymer and Firebase"
+  }, {
+    "description" : "Come hear about the UX philosophy of Material Design",
+    "speaker" : "Karun Warapongsittikul",
+    "time" : "4:45pm - 5:30pm",
+    "title" : "Introduction to UX"
+  } ]
+}

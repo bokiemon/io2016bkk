@@ -35,7 +35,7 @@
           reg.pushManager.subscribe({
             userVisibleOnly: true
           }).then(function(sub){
-            console.log("endpoint: " + sub.endpoint);
+            console.log("endpoint: " + JSON.stringify(sub.toJSON()));
           });
        });
      }
